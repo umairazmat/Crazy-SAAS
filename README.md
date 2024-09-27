@@ -38,11 +38,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ##clerk
 Link: https://clerk.com/
 npm install @clerk/nextjs
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=**\*\***\*\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***
-CLERK_SECRET_KEY= **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=\***\*<your-publishable-key>\*\***
+CLERK_SECRET_KEY= \***\*<your-secret-key>\*\***
 Create a middleware.ts file.
-In your middleware.ts, export Clerk's clerkMiddleware() helper
-Add <ClerkProvider> and components to your app
+In your middleware.ts, export Clerk's clerkMiddleware() helper.
+Add <ClerkProvider> and components to your app.
 
 ## cloudinary
 
