@@ -69,3 +69,8 @@ Just create postrgres database and copy the database url to .env file
 
 Install Prisma Client
 npm install @prisma/client
+
+## Next Cloudinary
+
+https://next.cloudinary.dev/installation
+npm install next-cloudinary
